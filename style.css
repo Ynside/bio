@@ -1,0 +1,170 @@
+ul {
+  --icon-space: 1.3em;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding-left: var(--icon-space);
+}
+
+li:before {
+
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: calc(var(--icon-space) * -1);
+  width: var(--icon-space);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  /* Arka plan rengi */
+  color: #333;
+  box-shadow: inset 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  /* İnce içe doğru gölge efekti */
+}
+
+h2 {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  border-radius: 5px 5px 0 0;
+
+}
+
+.profile-name {
+  font-weight: bolder;
+
+}
+
+.profile-card,
+.col-6 {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skills,
+.education,
+.languages,
+.work-history {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul,
+.education ul,
+.languages ul,
+.work-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li,
+.education li,
+.languages li,
+.work-history li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #f4f4f4;
+  border-left: 5px solid #333;
+  border-radius: 5px;
+}
+
+.skills li i {
+  margin-right: 10px;
+  color: #ff5733;
+}
+
+h3 {
+  margin: 0;
+  color: #333;
+}
+
+p {
+  margin: 5px 0 0;
+  color: #666;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-links li {
+  margin: 10px 45px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.social-links i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.social-links a:hover {
+  color: #0073e6;
+  /* Hover rengi */
+}
+
+.social-links .fa-twitter {
+  color: #1DA1F2;
+}
+
+.social-links .fa-instagram {
+  color: #E1306C;
+}
+
+.social-links .fa-github {
+  color: #333;
+}
+
+.social-links .fa-linkedin {
+  color: #0077B5;
+}
+
+.profile-email {
+  font-size: 18px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  /* Hafif gölge efekti */
+}
+
+.profile-email i {
+  margin-right: 10px;
+  color: #D44638;
+  /* Gmail rengi */
+}
+
+.stage {
+  font-weight: bolder;
+}
